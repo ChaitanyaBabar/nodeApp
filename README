@@ -1,0 +1,6 @@
+1. ModelName.find(callback).limit(limit);   // To get all the data from DB
+2. ModelName.findById(id , callback);       // To get the specific Data from DB
+3. ModelName.create(data , callback);       // To post data in DB 
+4. ModelName.findOneAndUpdate( query , updateObject ,  options ,callback ); // To put the data in DB depending    upon the query
+5. ModelName.remove( query , callback)
+   // To delete the row from the table		
